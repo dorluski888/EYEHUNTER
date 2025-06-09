@@ -1,0 +1,5 @@
+{
+    "server_url": "url_here",
+    "abuse_api_key": "IPDB_API_KEY",
+    "ipinfo_token": "ipinfo_token"
+}
