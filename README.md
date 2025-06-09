@@ -48,10 +48,12 @@ At startup, the script loads its configuration from a `config.json` file, which 
 
 ### What the script checks for:
 
+
 - **Process Hash Matching:** Compares process hashes against known suspicious/malicious values
 - **Suspicious Ports:** Identifies use of ports associated with malware or unwanted activity
 - **Blocked Country Detection:** Flags connections to IPs originating from blocked countries
 - **Abuse Score Evaluation:** Queries AbuseIPDB to determine if remote IPs have a high abuse score
+- **Suspicious File Paths:** Detects running processes located in directories commonly used by malware (e.g., temporary folders, unusual startup locations)
 
 ---
 
